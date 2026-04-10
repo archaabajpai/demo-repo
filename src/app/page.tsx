@@ -1,0 +1,55 @@
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      {/* Header */}
+      <header className="bg-white shadow">
+        <div className="max-w-6xl mx-auto px-4 py-6">
+          <h1 className="text-3xl font-bold text-gray-900">Demo App</h1>
+          <p className="text-gray-600 mt-1">Welcome to our application</p>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="max-w-6xl mx-auto px-4 py-12">
+        {/* Hero Section */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Welcome</h2>
+          <p className="text-gray-600 mb-6">
+            This is a basic demo application built with Next.js and Tailwind CSS.
+          </p>
+          <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-lg transition">
+            Get Started
+          </button>
+        </div>
+
+        {/* Features Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="bg-white rounded-lg shadow p-6">
+            <div className="text-indigo-600 text-3xl mb-4">🚀</div>
+            <h3 className="text-lg font-bold text-gray-900 mb-2">Fast</h3>
+            <p className="text-gray-600">Built with Next.js for optimal performance</p>
+          </div>
+
+          <div className="bg-white rounded-lg shadow p-6">
+            <div className="text-indigo-600 text-3xl mb-4">🎨</div>
+            <h3 className="text-lg font-bold text-gray-900 mb-2">Styled</h3>
+            <p className="text-gray-600">Beautiful UI with Tailwind CSS</p>
+          </div>
+
+          <div className="bg-white rounded-lg shadow p-6">
+            <div className="text-indigo-600 text-3xl mb-4">⚡</div>
+            <h3 className="text-lg font-bold text-gray-900 mb-2">Responsive</h3>
+            <p className="text-gray-600">Works great on all devices</p>
+          </div>
+        </div>
+      </main>
+
+      {/* Footer */}
+      <footer className="bg-gray-800 text-white mt-12">
+        <div className="max-w-6xl mx-auto px-4 py-8">
+          <p className="text-center text-gray-400">© 2024 Demo App. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  );
+}
