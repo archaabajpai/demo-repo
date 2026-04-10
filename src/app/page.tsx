@@ -50,17 +50,6 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 py-12">
-        {/* Hero Section */}
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Welcome</h2>
-          <p className="text-gray-600 mb-6">
-            This is a basic demo application built with Next.js and Tailwind CSS.
-          </p>
-          <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-lg transition">
-            Get Started
-          </button>
-        </div>
-
         {/* Search and Filter */}
         <div className="bg-white rounded-lg shadow p-6 mb-8">
           <div className="flex flex-col md:flex-row gap-4">
@@ -81,6 +70,17 @@ export default function Home() {
               <option value="Z-A">Sort Z-A</option>
             </select>
           </div>
+        </div>
+
+        {/* Hero Section */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Welcome</h2>
+          <p className="text-gray-600 mb-6">
+            This is a basic demo application built with Next.js and Tailwind CSS.
+          </p>
+          <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-lg transition">
+            Get Started
+          </button>
         </div>
 
         {/* Features Grid */}
