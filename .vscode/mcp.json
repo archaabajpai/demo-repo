@@ -1,0 +1,19 @@
+{
+	"servers": {
+		"archabajpai-jira": {
+			"url": "https://mcp.atlassian.com/v1/mcp",
+			"type": "http"
+		},
+		"Figma": {
+			"url": "https://mcp.figma.com/mcp",
+			"type": "http"
+		},
+		"playwright": {
+			"command": "npx",
+			"args": [
+				"@playwright/mcp@latest"
+			]
+    }
+	},
+	"inputs": []
+}
