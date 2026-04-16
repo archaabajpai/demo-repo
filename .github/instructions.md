@@ -31,6 +31,8 @@ When the user asks to run Playwright tests:
 
 ## Notes
 
+alsways do the playwright tests when prompted not before that
+
 - Use the configured MCP servers rather than manual browser-only workflows when possible.
 - Always keep code changes aligned with the Figma design and Playwright verification steps.
 - If there is any ambiguity about which local URL to use, confirm the development server and port with the user.
